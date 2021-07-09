@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#navbar{
+    margin-top: 0;
+    background-color: rgb(103, 103, 255);
+    height: 50px;
+}
+
+#navbar ul{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#navbar ul li{
+    list-style: none;
+    margin: 15px 0;
+}
+
+#navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    margin: 60px;
+}
+
+#navbar ul li a:hover{
+    color: rgb(2, 2, 122);
+    text-decoration: white 1.5px underline;
+}
+
+#name{
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    list-style: none;
+    text-decoration: none;
+    margin: 8px 30px;
+    float: left;
+}
+
+.appointment{
+    list-style: none;
+    /* display: inline-block; */
+    color: white;
+    padding: 10px;
+    border: 1px solid white;
+    background: transparent;
+    /* border: none; */
+    margin-left: 30px;
+    border-radius: 10px;
+}
+
+.appointment:hover{
+    transition: 0.3s;
+    background: rgb(66, 66, 214);
+}
+/* ------------------- Navbar end----------------- */
+
+.intro::before{
+    content: "";
+    background-image: url("doctor_bg.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+.intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid blue; */
+    height: 100%;
+    width: 800px;
+    margin-top: 100px;
+    padding: 20px;
+}
+
+.intro-container h1{
+    font-size: 50px
+}
+
+.intro-container p{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.intro-container button{
+    margin-top: 20px;
+    height: 40px;
+    width: 200px;
+    border: none;
+    color: blue;
+    background: white;
+    border: 1px solid blue;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.intro-container button:hover{
+    color: white;
+    cursor: pointer;
+    background: blue;
+    transition: 0.3s;
+    background: rgb(66, 66, 214);
+}
+
+/* ------------ intro-------------------- */
+.facility{
+    /* border: 2px solid yellow; */
+    margin-top: 200px;
+    background: whitesmoke;
+}
+
+.fac-container{
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 2px solid red; */
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    /* border: 2px solid brown; */
+    height: 100%;
+    width: 350px;
+    margin: 30px;
+    box-shadow: 1px 1px 10px black;
+}
+
+.facility h1, p{
+    text-align: center;
+}
+
+.facility h1{
+    font-size: 30px;
+}
+
+.facility p{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.fac-container img{
+    /* border: 2px solid rgb(230, 46, 46); */
+    height: 200px;
+    width: 100%;
+}
+
+.fac-container p{
+    font-size: 18px;
+}
+
+#fac-heading{
+    margin-top: 230px;
+    font-size: 40px;
+}
+/* -------------Facility End-------------------- */
+.key-point{
+    /* border: 2px solid blue; */
+}
+
+.key-cont{
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 2px solid red; */
+}
+
+#box1{
+    color: white;
+    background-color: rgb(76, 76, 236);
+    /* border: 2px solid green; */
+    height: 100%;
+    width: 400px;
+    text-align: center;
+}
+#box2{
+    color: white;
+    background-color: rgb(102, 102, 255);
+    /* border: 2px solid green; */
+    height: 100%;
+    width: 443px;
+    text-align: center;
+}
+#box3{
+    color: white;
+    background-color: rgb(55, 55, 255);
+    /* border: 2px solid green; */
+    height: 100%;
+    width: 400px;
+    text-align: center;
+}
+
+#box1 h2{
+    font-size: 30px;
+    margin: 20px;
+}
+  
+#box2 h2{
+    font-size: 30px;
+    margin: 20px;
+}
+  
+#box3 h2{
+    font-size: 30px;
+    margin: 20px;
+}
+
+#box1 p{
+  padding: 20px;
+  text-align: center;
+}
+
+#box2 p{
+  padding: 20px;
+  text-align: center;
+}
+
+#box3 p{
+  padding: 20px;
+  text-align: center;
+}
+
+
+.key-point h1{
+    text-align: center;
+    font-size: 40px;
+    margin: 20px;
+}
+
+.icon{
+    filter: invert(100%);
+    display:block;
+    margin: 5px auto;
+    margin-top: 50px;
+    /* border: 2px solid violet; */
+    height: 100px;
+    width: 100px;
+}
+/* ----------Key points------------------ */
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+}
